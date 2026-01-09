@@ -17,6 +17,13 @@ The Amazon Clone replicates the visual structure and layout of the Amazon homepa
 
 The goal of this project is **not functionality**, but **design accuracy, structure, and responsiveness**.
 
+## Live Demo
+
+**Live Website:**  
+ https://your-username.github.io/amazon-clone-html-css/
+ 
+> Deployed using GitHub Pages.
+
 ---
 
 ##  Technologies Used
