@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: arial;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    
+    height: 50px;
+    width: 120px;
+   
+}
+
+.logo{
+   background-position: center;
+    background-image:url("images/amazon-logo.jpg") ;
+    height: 50px;
+    width: 100%;
+    /* background-size: cover; */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.border{
+    border: 2px solid transparent;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.border:hover{
+    border: 2px solid white;
+}
+
+/* nav-location part */
+
+.nav-location{
+    align-items: center;
+    margin-left: 5px;
+    height: 50px;
+    width: 85px;
+    justify-items: center;
+    align-content: center;
+    
+    
+
+}
+.location-icon{
+    display: flex;
+}
+.first-location{
+    color: #cccc;
+    font-size: 12px;
+    margin-left: 27px;
+}
+.second-location{
+    margin-left: 5px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+
+/* Search Box Part */
+
+.nav-searchbar{
+    /* justify-content:space-evenly ; */
+    /* justify-items: center; */
+    border-radius: 5px;
+    width: 600px;
+    align-items: center;
+    display: flex;
+    background-color: pink;
+}
+.nav-searchbar:hover{
+    border: 2px solid pink;
+}
+
+.select-option{
+    color: #0F1111;
+    background-color: #e6e6e6;
+    padding: 0px 0px 0px 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height:45px;
+    width: 50px;
+    text-align: center;
+    border: none;
+
+}
+.search-input{
+    height: 40px;
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+
+.search-icon{
+    width: 45px;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: rgb(255, 191, 0);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0F1111;
+    border: none;
+}
+.hovor-shadow:hover{
+   border: 2px solid black;
+}
+/* Sign in part */
+.sign-in{
+    
+    justify-items: center;
+    align-content: center;
+    width: 130px;
+    height: 50px;
+    
+}
+.signin{
+    color: #ffffff;
+    font-size: 0.7rem;
+  
+}
+.account{
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 700;
+    display: flex;
+}
+
+.returns-orders{
+    
+    
+    justify-items: center;
+    align-content: center;
+    width: 75px;
+    height: 50px;
+    
+    
+    
+}
+.returns{
+    color: #ffffff;
+    font-size: 0.7rem;
+}
+.orders{
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 700;
+
+}
+.cart-icon{
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    height: 50px;
+    font-weight: 700;
+}
+
+
+.cart-icon i{
+    font-size: 35px;
+}
+
+.panel{
+    width: 100%;
+    height:50px ;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+   justify-content: space-evenly;
+}
+.all{
+    display: flex;
+    height: 45px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.all p{
+    margin-left: 5px;
+}
+
+.panel-option p{
+  display: inline;
+  margin-left: 15px;
+  height: 100%;
+  border: 2px solid transparent;
+  justify-items: center;
+  align-content: center;
+ 
+}
+
+.panel-option{
+    
+    width: 75rem;
+    font-size: 0.85rem;
+    height: 40px;
+    display: flex;
+    align-items: center;
+   
+}
+.electronic{
+    font-size:0.9rem ;
+    font-weight: 700;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.hero-section{
+    width: 100%;
+    height: 400px;
+    background-image: url("images/hero-section-bg-image.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-msg{
+    background-color: white;
+    color: black;
+    width: 80%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 379.9px;
+}
+
+.hero-msg a{
+    color: #007185;
+}
+
+/* shopping section */
+
+.shopping-section{
+    background-color: #99c0ea;
+    display: flex;
+    justify-content: space-evenly;
+    height: 450px;
+    width: 100%;
+    align-items:center;
+    
+}
+.box{
+    background-color: white;
+    height: 400px;
+    width:23% ;    
+    justify-items: center;
+   
+   
+}
+
+.bg-image{
+    height:85%;
+    width: 90%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 13px;
+
+}
+.box p{
+    /* margin-top: 15px; */
+    color: #007185;
+}
+.box h2{
+    margin-top: 5px;
+    color: #0F1111;
+    font-weight: 700;
+}
+.next-row{
+    margin-top: -20px;
+}
+
+/* Sign section */
+
+.personalize{
+    height: 150px;
+    width: 100%;
+    margin-top: 45px;
+
+    border: 2px solid rgba(118, 118, 118, 0.177);
+    align-content: center;
+    justify-items: center;
+}
+
+.p1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.new-costumer{
+    width: 100%;
+    height: 100px;
+    align-content: center;
+    justify-items: center;
+}
+
+ .new-costumer button{
+    background-color: yellow;
+    display: flex;
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-weight: 600;
+ }
+ .p2{
+    font-size: 12px;
+ }
+
+
+ .go-top{
+    height:40px ;
+    width: 100%;
+    background-color: #222f3d;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+
+ }
+
+ .about{
+    
+    height: 300px;
+    width: 100%;
+    background-color: #0b121a;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+
+
+ }
+
+ .gettoknow{
+    height:250px ;
+    width: 15%;
+    margin-top: 10px;
+ }
+
+.p4{
+    color: white;
+    font-weight: 700;
+    
+}
+.content{
+    margin-top: 20px;
+}
+
+ .content p{
+    margin-top: 10px;
+    color: wheat;
+
+ }
+
+
+ .condition-ofuse{
+    height: 100px;
+    width: 100%;
+    background-color:#04080c ;
+    color: white;
+    align-content: center;
+    justify-items: center;   
+ }
+
+ .box:hover{
+    border: 2px solid rgba(230, 18, 18, 0.811);
+ }
+ 
