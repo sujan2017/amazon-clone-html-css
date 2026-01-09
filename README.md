@@ -20,7 +20,7 @@ The goal of this project is **not functionality**, but **design accuracy, struct
 ## Live Demo
 
 **Live Website:**  
- https://your-username.github.io/amazon-clone-html-css/
+ https://sujan2017.github.io/amazon-clone-html-css/
  
 > Deployed using GitHub Pages.
 
